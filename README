@@ -1,0 +1,27 @@
+						README
+
+DRIVER AUTHOR:---> RUSHANG V KARIA 
+		   ASU # 1206337661
+
+DRIVER PRECOMPILED FOR KERNEL 3.6.7
+
+COMPILE
+using the appropriate source tree please edit the Makefile and type make using the appropriate flags
+
+RUN
+sudo insmod HRT.ko
+sudo insmod SQueue.ko
+type ./main_2 to run it
+
+NOTE: Since this file was emailed and downloaded from the internet, if you get an error such as Permission Denied please type
+sudo chmod 777 ./main_2 
+
+and try running it again
+
+
+make sure to check dmesg so that the drivers were initialized.
+
+Please let the program complete else the drivers will not be rmmod compatible and the system will have to be rebooted.
+
+
+YOU CAN ALSO TRY ./main_2 > aa AND CHECK FOR ALL THE TOKENS using gedit ( or any GUI text editor) aa.

@@ -1,0 +1,4 @@
+sudo mknod /dev/SQueue1 c 251 1
+sudo mknod /dev/SQueue2 c 251 2
+
+sudo chmod -v 666 /dev/SQueue*
