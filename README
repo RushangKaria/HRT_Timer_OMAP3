@@ -1,7 +1,8 @@
 						README
 
 DRIVER AUTHOR:---> RUSHANG V KARIA 
-		   ASU # 1206337661
+		High Resolution Timer Driver for OMAP 3 
+		Test Program create six threads and uses them in a producer-consumer way
 
 DRIVER PRECOMPILED FOR KERNEL 3.6.7
 
